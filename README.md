@@ -1,4 +1,4 @@
-Thi is a fork of Piggybak Gem (Engine)
+This is a fork of Piggybak Gem (Engine)
 ========
 
 Modular / mountable ecommerce gem. Features:
