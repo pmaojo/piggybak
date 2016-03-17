@@ -182,6 +182,7 @@ module Piggybak
             field :status
           end
           edit do
+            field :pasajeros
             field :recorded_changer, :hidden do
               partial "recorded_changer"
             end
