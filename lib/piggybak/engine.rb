@@ -132,6 +132,7 @@ module Piggybak
           object_label_method :admin_label
 
           show do
+            field :pasajeros
             field :status
             field :total do
               formatted_value do
