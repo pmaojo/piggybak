@@ -1,6 +1,6 @@
 module Piggybak
   class Engine < Rails::Engine
-    isolate_namespace Piggybak
+    # isolate_namespace Piggybak
 
     initializer "piggybak.ssl_enforcer" do |app|
       # Note: If your main application also uses rack-ssl-enforcer,
