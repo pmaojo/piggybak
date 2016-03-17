@@ -163,6 +163,11 @@ module Piggybak
           end
           list do
             field :id
+            field :pasajeros do
+              active true
+              help ""
+            end
+
             field :billing_address do
               label "Billing Name"
               pretty_value do
