@@ -81,7 +81,7 @@ module Piggybak
       RailsAdmin::Config.reset_model(Piggybak::LineItem)
 
       RailsAdmin.config do |config|
-        config.label_methods << :admin_label
+       # config.label_methods << :admin_label
 
         config.model Piggybak::LineItem do
           label "Line Item"
