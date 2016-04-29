@@ -126,7 +126,7 @@ module Piggybak
         end
 
         config.model Piggybak::Order do
-          label "Order"
+          # label "Order"
           # navigation_label "Orders"
           weight 1
           object_label_method :admin_label
